@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Schedule</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="planner">
+    <header class="planner__header">
+      <h1>Personal Schedule</h1>
+      <p class="planner__subtitle">Plan your day, one page at a time.</p>
+    </header>
+
+    <section class="planner__grid" aria-label="Daily planning layout">
+      <div class="stack-column">
+        <article class="panel notes">
+          <h2 id="notes-heading">Notes</h2>
+          <textarea aria-labelledby="notes-heading" placeholder="Jot down quick notes, meeting details, or ideas."></textarea>
+        </article>
+
+        <article class="panel brain-dump">
+          <h2 id="brain-dump-heading">Brain Dump</h2>
+          <textarea aria-labelledby="brain-dump-heading" placeholder="Capture thoughts, reminders, and anything on your mind."></textarea>
+        </article>
+      </div>
+
+      <div class="grid-column">
+        <article class="panel schedule">
+          <h2 id="schedule-heading">Schedule</h2>
+          <textarea aria-labelledby="schedule-heading" placeholder="Map out your appointments, time blocks, and daily flow."></textarea>
+        </article>
+
+        <article class="panel todo">
+          <h2 id="todo-heading">To Do</h2>
+          <textarea aria-labelledby="todo-heading" placeholder="Top priorities that must get done today."></textarea>
+        </article>
+
+        <article class="panel could-do">
+          <h2 id="could-do-heading">Could Do</h2>
+          <textarea aria-labelledby="could-do-heading" placeholder="Nice-to-have tasks if time allows."></textarea>
+        </article>
+
+        <article class="panel reminders">
+          <h2 id="reminders-heading">Reminders</h2>
+          <textarea aria-labelledby="reminders-heading" placeholder="Important follow-ups, calls, or deadlines."></textarea>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
